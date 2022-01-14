@@ -8,6 +8,7 @@ import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Pattern;
 import java.time.LocalDate;
+import java.time.LocalTime;
 import java.util.List;
 
 @Data
@@ -42,8 +43,9 @@ public class Donation {
     @NotNull
     @DateTimeFormat(pattern = "yyyy-MM-dd")
     private LocalDate pickUpDate;
+
     @NotNull
-    private LocalDate pickUpTime;
+    private LocalTime pickUpTime;
 
     private String pickUpComment;
 }
