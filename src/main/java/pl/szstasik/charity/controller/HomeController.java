@@ -1,4 +1,4 @@
-package pl.szstasik.charity;
+package pl.szstasik.charity.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
