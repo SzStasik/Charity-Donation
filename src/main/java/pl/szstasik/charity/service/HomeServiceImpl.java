@@ -11,8 +11,8 @@ import java.util.List;
 @Service
 public class HomeServiceImpl implements HomeService{
 
-    private DonationRepository donationRepository;
-    private InstitutionRepository institutionRepository;
+    private final DonationRepository donationRepository;
+    private final InstitutionRepository institutionRepository;
 
 
     public HomeServiceImpl(DonationRepository donationRepository, InstitutionRepository institutionRepository) {
