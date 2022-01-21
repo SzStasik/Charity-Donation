@@ -1426,7 +1426,7 @@ header nav ul li:last-of-type {
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
-          justify-content: space-between;
+          justify-content: end;
   width: 100%;
   margin-bottom: 35px;
 }
@@ -1438,7 +1438,7 @@ header nav ul li:last-of-type {
 
 /* line 54, scss/modules/homepage-sections/_help.scss */
 .help--slides-items .col {
-  width: 100%;
+  width: 50%;
 }
 
 /* line 57, scss/modules/homepage-sections/_help.scss */
