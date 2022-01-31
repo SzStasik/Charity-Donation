@@ -30,6 +30,9 @@ public class Donation {
     @NotNull
     private Institution institution;
 
+    @ManyToOne
+    private User user;
+
     @NotBlank
     private String street;
 
